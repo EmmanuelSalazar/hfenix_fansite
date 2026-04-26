@@ -1,0 +1,28 @@
+:root {
+    --bg-dark: #121212;
+    --card-bg: #1e1e1e;
+    --accent-orange: #ff9d00;
+    --accent-orange-hover: #e68a00;
+    --text-white: #ffffff;
+    --text-gray: #b3b3b3;
+    --glass-yellow: rgba(255, 157, 0, 0.1);
+    --border-color: #333;
+    --bg-input: #222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-white);
+    line-height: 1.6;
+}
+
+a { text-decoration: none; }
+
+ul { list-style: none; }

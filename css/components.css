@@ -1,0 +1,173 @@
+/* Cards */
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.sidebar-card {
+    background: var(--glass-yellow);
+    border: 1px solid var(--accent-orange);
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+/* Buttons */
+.btn-hotel {
+    display: block;
+    width: 100%;
+    background: var(--accent-orange);
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-hotel:hover {
+    background: #fff;
+}
+
+/* Status badge */
+.status-online {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+/* Welcome banner */
+.welcome-banner {
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url('https://i.ibb.co/3mtFQTcZ/Sin-t-tulo-1-Recuperado.png');
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 4px;
+    border-left: 5px solid var(--accent-orange);
+}
+
+.welcome-banner h1 {
+    font-size: 2.5rem;
+}
+
+/* Post items (noticias / actualizaciones) */
+.post-item {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+}
+
+.post-item img {
+    width: 150px;
+    height: 100px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+/* Aliados / Servidores */
+.aliado-item {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background: #252525;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.aliado-item img {
+    width: 90px;
+    height: 90px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.aliado-link {
+    color: var(--accent-orange);
+    font-size: 0.9rem;
+}
+
+.aliado-link:hover {
+    text-decoration: underline;
+}
+
+/* Section heading */
+.section-title {
+    margin: 20px 0;
+}
+
+/* Accent text */
+.text-accent {
+    color: var(--accent-orange);
+}
+
+/* Post item sin borde inferior (último de la lista) */
+.post-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+/* Update icon */
+.update-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+}
+
+/* Server badge */
+.server-badge {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.server-badge--orange { background: var(--accent-orange); color: #000; }
+.server-badge--blue   { background: #0080ff; color: #fff; }
+
+/* Card variantes */
+.card--dark  { background: #111; }
+.card--glass { background: var(--glass-yellow); }
+
+/* Top créditos */
+#top-credits-list {
+    margin-left: 20px;
+    margin-top: 10px;
+    color: var(--accent-orange);
+}
+
+#top-credits-list li span {
+    color: var(--text-white);
+}
+
+/* Progress bar */
+.progress-bar {
+    width: 100%;
+    background: #333;
+    height: 5px;
+    margin-top: 5px;
+}
+
+.progress-bar__fill {
+    background: var(--accent-orange);
+    height: 100%;
+    width: 0%;
+    transition: width 0.5s ease;
+}
+
+/* Server load label */
+#server-load-label {
+    font-size: 0.8rem;
+}
